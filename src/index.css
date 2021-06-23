@@ -12,18 +12,35 @@ code {
     monospace;
 }
 
+.drop-down-buttons{
+  display: flex
+}
+
+#dropdown-basic-button{
+  margin: 10px;
+  width: fit-content;
+  word-wrap: normal;
+
+}
 .navigation {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  /* width: 100%; */
   display: flex;
+  text-align: center;
+  align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Logo{
+  width: 80%;
+  max-width: 960px;
+  text-align: left
 }
 
 .flat-logo {
   padding: 10px;
-  width: 80%;
+  width: 40%;
 }
 
 .col-12 {

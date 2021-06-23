@@ -26,7 +26,7 @@ const DropDownButtons = (props) => {
           variant={!props.darkMode ? "primary" : "secondary"}
           id="dropdown-basic-button"
         >
-          BUY BTC
+          {"BUY BTC"}
         </Button>
       </a>
     </div>
