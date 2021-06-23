@@ -59,10 +59,6 @@ const IOSSwitch = withStyles((theme) => ({
 const DarkModeToggle = (props) => {
   return (
     <div className="App">
-      <h1>Hello, World</h1>
-      <h2>
-        Let's create a dark mode toggle that persists when the page is reloaded.
-      </h2>
       <IOSSwitch
         checked={props.darkMode}
         onChange={() => {
